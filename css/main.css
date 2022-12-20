@@ -47,6 +47,7 @@ header h1 {
 /* ----- NAVIGATION w/in HEADER SECTION ----- */
 
 nav {
+  width: 100%;
   float: right;
   padding: 75px 25px;
 }
@@ -55,12 +56,20 @@ nav ul li {
   display: inline-block;
 }
 
+nav ul {
+  width: 100%;
+}
+
 nav ul li a {
   color: #828282;
   font-size: 18px;
-  text-decoration: none;
   text-transform: uppercase;
-  padding-left: 50px;
+  margin-left: 50px;
+}
+
+nav ul li a:hover {
+  color: #f9ceb7;
+  text-decoration: none;
 }
 
 header h2 {
