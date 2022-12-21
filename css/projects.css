@@ -91,7 +91,7 @@ header h2 span {
 
 #projects {
   text-align: center;
-  background-color: #fff;
+  background-color: rgba(245, 245, 245, 0.5);
 }
 
 #projects .full-width {
@@ -105,7 +105,7 @@ header h2 span {
 #projects h3 {
   font-size: 24px;
   line-height: 32px;
-  width: 190px;
+  width: 250px;
   margin: 30px auto 20px auto;
 }
 
@@ -120,7 +120,7 @@ header h2 span {
 /* ========== CONTACT SECTION ========== */
 
 #contact {
-  background-color: #ebebeb;
+  background-color: rgba(255, 182, 193, 0.139);
 }
 
 #contact .full-width {
