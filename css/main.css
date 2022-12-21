@@ -13,8 +13,9 @@ body {
 /* ========== GRID ========== */
 
 .full-width {
+  width: 100%;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
   width: 1200px;
 }
 
@@ -28,6 +29,12 @@ body {
   width: 400px;
 }
 
+#projects .third-width {
+  margin: 0 2.5rem;
+  float: left;
+  width: 315px;
+}
+
 /* ========== HEADER SECTION ========== */
 
 header {
@@ -36,7 +43,13 @@ header {
   height: 800px;
 }
 
-header h1 {
+#project-header {
+  background-color: rgba(255, 182, 193, 0.139);
+  height: 200px;
+}
+
+header h1,
+#project-header h1 {
   color: #bbc085;
   font-family: Lora, sans-serif;
   font-size: 30px;
@@ -118,6 +131,7 @@ header h2 span {
 }
 
 #work img {
+  width: 50%;
   padding-bottom: 30px;
 }
 
